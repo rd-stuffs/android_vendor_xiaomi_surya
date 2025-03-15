@@ -5176,7 +5176,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/ese_spi_nxp.so"],
-			shared_libs: ["android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "libcutils", "libhardware", "libhidlbase", "libutils", "liblog", "libbase", "vendor.nxp.nxpese@1.0_vendor", "vendor.nxp.nxpnfc@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbase_shim", "android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "libcutils", "libhardware", "libhidlbase", "libutils", "liblog", "libbase", "vendor.nxp.nxpese@1.0_vendor", "vendor.nxp.nxpnfc@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
