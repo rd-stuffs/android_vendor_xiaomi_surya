@@ -8483,6 +8483,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.camera.device@1.0_vendor",
 	stem: "vendor.qti.hardware.camera.device@1.0",
+	overrides: ["vendor.qti.hardware.camera.device@1.0"],
 	owner: "xiaomi",
 	strip: {
 		none: true,
